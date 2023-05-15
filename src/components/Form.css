@@ -1,0 +1,71 @@
+form{
+    padding: 30px;
+    border-radius: 10px;
+    background: white;
+}
+form h1{
+    text-align: center;
+}
+.heading-label{
+    font-weight: bold;
+    margin-top: 3px;
+}
+.form-control{
+    margin:10px 0;
+}
+input[type='text'],input[type='email'],input[type='date'],select{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: #eee;
+    outline: 0;
+}
+input[type='date'],select{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.637);
+}
+input[type='text'],input[type='email']{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.637);
+    transition: 0.2s;
+}
+input[type='text']:focus,input[type='email']:focus,input[type='date']:focus,select:focus{
+    border-bottom: 2px solid rgba(9,29,85,1) ;
+}
+input[type='radio'],input[type='checkbox']{
+    margin-left: 7px;
+    margin-right: 2px;
+}
+button{
+    width: 100%;
+    background: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0.9;
+}
+button:hover{
+    opacity: 1;
+}
+.error-msg{
+    color: red;
+    font-size: 12px;
+    margin: 3px;
+}
+.caption{
+    color: #3b3a3ad7;
+    text-align: center;
+    font-size: 13px;
+}
+.form-success{
+    color: darkgreen;
+    text-align: center;
+    font-size: 14px;
+    background: lightgreen;
+    margin-top: 5px;
+    padding: 5px 0px;
+    border: 1px solid darkgreen;
+    border-radius: 3px;
+}
